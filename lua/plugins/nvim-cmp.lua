@@ -7,5 +7,11 @@ return {
         { name = "buffer" },
       },
     })
+    -- require("cmp").setup.filetype({ "js", "ts" }, {
+    --   sources = {
+    --     { name = "buffer" },
+    --     { name = "cmp_ai" },
+    --   },
+    -- })
   end,
 }
