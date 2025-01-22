@@ -15,12 +15,13 @@ return {
   { "hardhackerlabs/theme-vim" },
   { "lunarvim/synthwave84.nvim" },
   { "artanikin/vim-synthwave84" },
+  { "drewtempelmeyer/palenight.vim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ayu",
+      colorscheme = "material-deep-ocean",
     },
   },
 }
