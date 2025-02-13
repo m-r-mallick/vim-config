@@ -8,6 +8,7 @@ local map = vim.keymap.set
 
 map("v", "<C-c>", '"+y', { desc = "Copy to system clipboard", noremap = true })
 map({ "v", "n" }, "<C-a>", "ggVG", { desc = "Select all text", noremap = true })
+map("n", "<leader>co", ":OrganizeImports<CR>", { desc = "Organize Imports" })
 
 -- Custom scripts mappings
 local custom_script_mappings = {
